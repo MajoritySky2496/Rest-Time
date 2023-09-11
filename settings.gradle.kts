@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Rest Time"
 include(":app")
+include(":data")
+include(":domain")
