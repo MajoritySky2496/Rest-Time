@@ -36,6 +36,22 @@ android {
 }
 
 dependencies {
+    //Koin
+    implementation("io.insert-koin:koin-android:3.4.2")
+
+    //NavigationGraph
+    implementation("androidx.navigation:navigation-fragment-ktx:2.6.0")
+    implementation("androidx.navigation:navigation-ui-ktx:2.6.0")
+
+    //Fragment
+    implementation("androidx.fragment:fragment-ktx:1.6.1")
+
+    //Glide
+    implementation("com.github.bumptech.glide:glide:4.15.1")
+
+    //ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
+
     implementation(project(mapOf("path" to ":domain")))
     implementation(project(mapOf("path" to ":data")))
     implementation("androidx.core:core-ktx:1.9.0")
