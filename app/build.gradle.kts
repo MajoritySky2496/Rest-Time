@@ -7,6 +7,10 @@ android {
     namespace = "com.example.resttime"
     compileSdk = 33
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.resttime"
         minSdk = 24
