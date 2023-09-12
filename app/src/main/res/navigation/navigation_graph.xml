@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/navigation_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/hotelPageFragment">
 
+    <fragment
+        android:id="@+id/hotelPageFragment"
+        android:name="com.example.resttime.presentation.HotelPageFragment"
+        android:label="page_hotel_fragment"
+        tools:layout="@layout/page_hotel_fragment" />
 </navigation>
