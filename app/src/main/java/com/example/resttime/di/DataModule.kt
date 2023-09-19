@@ -1,7 +1,6 @@
 package com.example.resttime.di
 
-import com.example.data.Api
-import com.google.gson.Gson
+import com.example.data.network.Api
 import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
