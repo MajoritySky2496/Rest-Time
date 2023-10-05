@@ -1,11 +1,11 @@
-package com.example.domain
+package com.example.data.dto.models
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-data class Hotel(
-    val about_the_hotel:AboutTheHotel,
+data class HotelDto(
+    val about_the_hotel: AboutTheHotelDto,
     val adress: String,
     val id: Int,
     val image_urls: List<String>,
@@ -17,7 +17,7 @@ data class Hotel(
 ) : Parcelable
 
 @Parcelize
-data class AboutTheHotel(
+data class AboutTheHotelDto(
     val description: String,
     val peculiarities: List<String>
 ) : Parcelable

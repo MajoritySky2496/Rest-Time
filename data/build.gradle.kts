@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -34,7 +35,6 @@ android {
 
 dependencies {
 
-
     //Gson
     implementation("com.google.code.gson:gson:2.9.0")
 
@@ -47,6 +47,9 @@ dependencies {
     implementation("androidx.room:room-runtime:$room_version")
     annotationProcessor("androidx.room:room-compiler:$room_version")
     implementation("androidx.room:room-ktx:$room_version")
+
+    //Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
 
     implementation(project(mapOf("path" to ":domain")))
     testImplementation("junit:junit:4.13.2")
