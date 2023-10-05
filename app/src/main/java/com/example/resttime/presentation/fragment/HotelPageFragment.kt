@@ -1,4 +1,4 @@
-package com.example.resttime.presentation
+package com.example.resttime.presentation.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater

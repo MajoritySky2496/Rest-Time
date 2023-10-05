@@ -60,6 +60,11 @@ dependencies {
     //ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
 
+    //AdapterDelegates
+    implementation ("com.hannesdorfmann:adapterdelegates4:4.3.2")
+    implementation ("com.hannesdorfmann:adapterdelegates4-viewbinding:4.3.2")
+
+
     implementation(project(mapOf("path" to ":domain")))
     implementation(project(mapOf("path" to ":data")))
     implementation("androidx.core:core-ktx:1.9.0")
