@@ -60,9 +60,12 @@ dependencies {
     //ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
 
+    //Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+
     //AdapterDelegates
     implementation ("com.hannesdorfmann:adapterdelegates4:4.3.2")
-    implementation ("com.hannesdorfmann:adapterdelegates4-viewbinding:4.3.2")
+
 
 
     implementation(project(mapOf("path" to ":domain")))
