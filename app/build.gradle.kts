@@ -63,6 +63,11 @@ dependencies {
     //Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
 
+    //AdapterDelegates
+    implementation ("com.hannesdorfmann:adapterdelegates4:4.3.2")
+
+
+
     implementation(project(mapOf("path" to ":domain")))
     implementation(project(mapOf("path" to ":data")))
     implementation("androidx.core:core-ktx:1.9.0")
